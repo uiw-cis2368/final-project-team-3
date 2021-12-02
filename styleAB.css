@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6F0; 
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(newbg.png);
+    background-size: cover;
+    background-position: center;
+    color: #00000;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+    .navbar ul li a {
+        text-decoration: none;
+        color: #8DA483;
+        text-transform: uppercase;
+    }
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00000;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: #1C1B20;
+}
+.content p {
+    line-height: 15px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #1C1B20 ;
+    background: transparent;
+    color: #1C1B20;
+    cursor: pointer;
+}
+form{
+    
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #1C1B20 ;
+    background: transparent;
+    color: #1C1B20;
+    cursor: pointer;
+}
+.image{
+    border-radius: 8px;
+    width: 25%;
+    margin-left: 65%;
+    float: right;
+}
+.content2 {
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    color: #1C1B20;
+}
+
+    .content h2 {
+        font-size: 100px;
+        margin-top: -300px;
+        margin-left: -700px;
+    }
+
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        margin-left: -750px;
+        push: left;
+    }
+.content3 {
+    width: 100%;
+    position: absolute;
+    top: 140%;
+    text-align: center;
+    color: #1C1B20;
+}
+.content h3 {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    color: #1C1B20;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: -750px;
+    push: left;
+    }
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400%;
+    padding: 25px;
+}
